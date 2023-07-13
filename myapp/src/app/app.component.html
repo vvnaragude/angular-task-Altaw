@@ -1,0 +1,119 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" >
+  
+    
+
+  <div style="width: 100%; height: 80px;">
+    <div class="mw-150" style="width: 200%;">
+  
+  <div class="container-fluid">
+    
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+   
+   
+    
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="nav nav-underline">
+        <li class="nav-item">
+         
+          <a class="nav-link " aria-current="page" href="#newtab">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#newtab1">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#newtab2">speakars</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#newtab">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#newtab">venue</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#newtab">sponser</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#newtab">contact</a>
+        </li>
+             </ul>
+             </ul>
+            </div>
+     
+    </div>
+  </div>
+    </div>
+  
+  
+</nav>
+<div [ngStyle]="{'background' : 'url(/assets/img/card-1.jpg)'}">
+<div class="container px-4 text-center">
+
+<section id="newtab">
+ 
+    <router-outlet></router-outlet>
+  <ul class="nav justify-content-center" >
+   
+    <p class="fs-1" style="color:red"> {{title}} </p> <p class="fs-1">CONFERENCE</p>  <br></ul>
+  <ul class="nav justify-content-center">
+    <p class="fs-3" > Next Step in Your Digital Transformation & Innovation Journey</p><br></ul>
+  <ul class="nav justify-content-center">
+    <p class="fs-2"> Date:</p> <p class="fs-2" style="color:red"> May 25 - 26, 2023</p><p class="fs-2"> | Venue:</p><p class="fs-2" style="color:red"> Embassy Suites by Hilton, Boston - USA</p><br></ul>
+  <ul class="nav justify-content-center">
+    <p class="fs-1">Lunch, Networking & Exhibition Hall:</p><p class="fs-2" style="color:red"> Atrium</p><br></ul>
+  <ul class="nav justify-content-center">
+    <p class="fs-1">Conference Room & Sessions:</p><p class="fs-2" style="color:red"> Mystic B Room</p></ul>
+    <li class="nav-item">
+     <a  aria-current="page" href="#newtab1" >About the Event</a>
+    </li>
+  
+</section>
+</div>
+
+</div>
+<div class="text-bg-secondary p-3">
+<div class="container px-4 text-left">
+<section id="newtab1">
+  
+  <p class="fs-1">About The Event</p><br>
+  <p class="fs-3">Transforming your insurance business has become a need of the hour!</p><br>
+  <p class="fs-4">New situations and scenarios have allowed insurance companies to break conventional barriers and start thinking differently to transform their businesses.
+    The surge of InsurTech has opened up new business models, strategies,and cutting-edge technologies to leap onto the next step in your digital transformation journey.</p>
+    <br>
+
+  <p class="fs-4"> Creating and delivering value in insurance has drastically changed, and the global pandemic only accelerated that change. All of the leading insurance companies have started to reimagine their businesses, both internally and externally, to meet the changing needs of their customers. These days,
+       the only way to lead the market is by accelerating technology & digital transformations that can meet the needs of a world in crisis.</p>
+       <br>
+
+  <p class="fs-4">As insurance leaders have already ignited a new and different future—one predicated on technology, we, at Altaworld,
+         constantly starve to create an alternate ecosystem built on technology innovations, digital transformation, and end-to-end connections.</p>
+         <br>
+  <p class="fs-4">To keep pace with the competition, insurance companies need to transform at a rapid speed. Not sure, how you can travel this transformation journey?  Join our Insurance Tech & Innovation Conference on May 25 - 26, 2023 inviting 30+ insurance technology experts to share their latest strategies, insights,
+     solutions, and innovations to drive your insurance transformation journey!</p>
+     <br><br>
+  <p class="fs-4">Meet decision-makers from across the entire insurance value chain, 
+    with 200+ leaders from technology, innovation, data, analytics more</p>
+  
+  
+</section>
+</div>
+</div>
+
+
+
+<section  class="mt-3" id="newtab2">
+  <div [ngStyle]="{'background' : 'url(/assets/img/card-2.jpg.jpg)'}">
+  <div class="container px-4 text-center">
+    <p class="fs-1">SPEAKERS 2023</p><br>
+    <p class="fs-1">Speaker acquisition is ongoing! If you wish to participate as a speaker for the event, write to us on</p><p class="fs-2" style="color:red"> marketing@altaworld.tech</p>
+  </div>
+
+  <app-card></app-card>
+</div>
+
+
+</section>
